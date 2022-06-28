@@ -1,0 +1,69 @@
+.app-section{
+   
+    padding: 100px 370px;
+background-color: #fffbf7;
+}
+.app-section .main-app{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-content: center;
+    
+}
+.main-app .image-section img{
+    width: 90%;
+    height: 35vh;
+    margin-top: 90px;
+}
+.main-app .app-details{
+ height: 40vh;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-app .app-details h1{
+    font-size: 3rem;
+    width: 500px;
+}
+.main-app .app-details p{
+    font-weight: 100;
+}
+.main-app .app-details input{
+  
+   margin-top: 20px;
+    align-items: center;
+}
+.main-app .app-details #search{
+    height: 40px;
+    width: 60%;
+    border: 1px solid silver;
+    border-radius: 8px;
+}
+.main-app .app-details button{
+    height: 44px;
+    font-weight: 600;
+    margin-left: 5px;
+    color: white;
+    background-color: red;
+    width: 30%;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.main-app .store{
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+
+    display: flex;
+    margin-top: 25px;
+    /* gap: -340px; */
+    gap: -30px;
+}
+.main-app .store img{
+    width: 80%;
+  
+}
+.main-app .store .app-store{
+    margin-right: 90px;
+}

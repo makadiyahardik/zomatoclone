@@ -1,0 +1,28 @@
+.city-text{
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgb(241, 231, 231);
+    height: 90px;
+    align-items: center;
+  
+}
+ /* .city-text {
+    margin-left: 10px;
+    width: 101%;
+    margin: 20px 0;
+    
+} */
+.city-text .city-head{
+  
+margin-top: -40px;
+    font-weight: 100;
+    font-family: sans-serif;
+  
+    font-size: 1.2rem;
+    
+}
+.city-text .city-head .city-area h4,h3{
+ margin-left: 20px;
+ font-weight: 100;
+ font-family: sans-serif;
+ 
+}

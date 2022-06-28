@@ -1,0 +1,77 @@
+.footer-section{
+    background-color: #f8f8f8;
+    padding: 20px 243px;
+    height: 70vh;
+}
+.footer-section .footer{
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+footer{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-section .footer .main-drop{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+
+   
+}
+.footer-section .footer .main-drop .dropdown-Country{
+    margin-right: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.footer-section .footer .main-drop .dropdown-Country select{
+    height: 35px;
+    width: 90px;
+    padding-right: 10px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.footer-section .footer .main-drop .dropdown-Language select{
+    height: 30px;
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.footer-area .main-ftr{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+}
+.footer-area .main-ftr .single-footer li{
+    list-style: none;
+    margin: 10px 0;
+
+    font-weight: 100;
+    color: darkgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-area .main-ftr .single-footer p{
+    letter-spacing: 0.2px;
+    font-family: Okra,Helvetica,sans-serif;
+}
+.footer-section  h6{
+    color: gray;
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-section hr{
+    margin-top: 50px;
+}

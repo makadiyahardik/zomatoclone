@@ -1,0 +1,55 @@
+
+.location-section{
+    padding: 10px 243px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+.location-heading h1{
+    font-weight: 400;
+}
+
+
+.location-section .location{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    width: 101%;
+
+}
+.location-section .location .place{
+    /* background-color: blue; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgb(241, 231, 231);
+    height: 90px;
+    margin: 20px 0;
+  
+}
+.location-section .location .place .head{
+    font-weight: 100;
+    font-family: sans-serif;
+    /* margin-left: 20px; */
+
+}
+.location-section .location .place .head p{
+    cursor: pointer;
+   font-size: 1.2rem;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family: 100;
+   margin-top: 35px;
+}
+
+.location-section .location .place .head h3{
+    font-weight: 100;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 1.2rem;
+
+}
+.location-section .location .place .head h4{
+    font-weight: 100;
+    margin-left: 20px;
+    font-size: 1.2rem;
+   
+}
